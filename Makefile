@@ -2,11 +2,10 @@ install:
 	uv sync
 
 VD-games:
-	uv run python -m VD_games.scripts.VD_main
+	uv tool run --from my-first-project vd-games
 
 build:
 	uv build
 
 package-install:
 	uv tool install dist/*.whl
-
