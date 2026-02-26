@@ -1,0 +1,21 @@
+[project]
+name = "my-first-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "prompt>=0.4.1",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["VD_games"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.4",
+]
+
+[project.scripts]
+VD-games = "VD_games.scripts.VD_main:main"
+VD-even = "VD_games.scripts.VD_even:main"
