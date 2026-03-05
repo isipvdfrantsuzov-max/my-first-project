@@ -1,7 +1,7 @@
 import random
 import math
 
-DESCRIPTION = "Найдите наибольший общий делитель заданных чисел."
+DESCRIPTION = "Find the greatest common divisor of given numbers."
 
 def generate_round():
     num1 = random.randint(1, 50)
