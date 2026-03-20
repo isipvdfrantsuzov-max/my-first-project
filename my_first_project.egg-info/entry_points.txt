@@ -1,5 +1,7 @@
 [console_scripts]
-VD-calc = scripts.VD_calc:main
+VD-calc = VD_games.scripts.VD_calc:main
 VD-even = VD_games.scripts.VD_even:main
 VD-games = VD_games.scripts.VD_games:main
-VD-gcd = scripts.VD_gcd:main
+VD-gcd = VD_games.scripts.VD_gcd:main
+VD-prime = VD_games.scripts.vd_prime:main
+VD-progression = VD_games.scripts.vd_progression:main
